@@ -11,3 +11,8 @@ D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.exe
 D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.pdb
 D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.Login.resources
 D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.Spinner.resources
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.Main.resources
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.Users.resources
+D:\projekty\CarRentalSystem\CarRen\CarRen\bin\Debug\dje\CarRen.resources.dll
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.Users.dje.resources
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\dje\CarRen.resources.dll
