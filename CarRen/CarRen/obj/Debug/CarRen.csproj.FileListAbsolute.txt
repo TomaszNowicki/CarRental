@@ -1,0 +1,13 @@
+D:\projekty\CarRentalSystem\CarRen\CarRen\bin\Debug\CarRen.exe.config
+D:\projekty\CarRentalSystem\CarRen\CarRen\bin\Debug\CarRen.exe
+D:\projekty\CarRentalSystem\CarRen\CarRen\bin\Debug\CarRen.pdb
+D:\projekty\CarRentalSystem\CarRen\CarRen\bin\Debug\Guna.UI2.dll
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.csprojAssemblyReference.cache
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.Properties.Resources.resources
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.csproj.GenerateResource.cache
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.csproj.CoreCompileInputs.cache
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.csproj.CopyComplete
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.exe
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.pdb
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.Login.resources
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.Spinner.resources
