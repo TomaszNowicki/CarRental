@@ -4,7 +4,7 @@ namespace CarRen
     partial class Cars
     {
         /// <summary>
-        /// Required designer variable.
+        /// Required Tomasz Nowicki variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
