@@ -26,5 +26,20 @@ namespace CarRen
         {
             Application.Exit();
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Cars cars = new Cars();
+            cars.Show();
+
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Users users = new Users();
+            users.Show();
+        }
     }
 }

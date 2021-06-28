@@ -14,9 +14,9 @@ namespace CarRen
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
+            Application.EnableVisualStyles();
+            Application.Run(new Spinner());
         }
     }
 }

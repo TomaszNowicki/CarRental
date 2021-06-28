@@ -46,5 +46,19 @@ namespace CarRen
         {
             Application.Exit();
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Show();
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginPL loginPL = new LoginPL();
+            loginPL.Show();
+        }
     }
 }
