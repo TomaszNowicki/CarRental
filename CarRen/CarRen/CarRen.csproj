@@ -97,6 +97,12 @@
     <Compile Include="MainPL.Designer.cs">
       <DependentUpon>MainPL.cs</DependentUpon>
     </Compile>
+    <Compile Include="Rental.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rental.Designer.cs">
+      <DependentUpon>Rental.cs</DependentUpon>
+    </Compile>
     <Compile Include="Spinner.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainPL.resx">
       <DependentUpon>MainPL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rental.resx">
+      <DependentUpon>Rental.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Spinner.resx">
       <DependentUpon>Spinner.cs</DependentUpon>

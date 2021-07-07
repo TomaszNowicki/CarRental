@@ -67,5 +67,13 @@ namespace CarRen
             Customers customers = new Customers();
             customers.Show();
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Rental rental = new Rental();
+            rental.Show();
+
+        }
     }
 }

@@ -29,7 +29,7 @@ namespace CarRen
             SqlCommandBuilder builder = new SqlCommandBuilder(da);
             var ds = new DataSet();
             da.Fill(ds);
-            CarsDgv.DataSource = ds.Tables[0];
+            RentDgv.DataSource = ds.Tables[0];
             Con.Close();
         }
 
@@ -67,7 +67,7 @@ namespace CarRen
         private void Cars_Load(object sender, EventArgs e)
         {
             populate();
-            CarsDgv.Columns[0].HeaderCell.Value = "RegNo";
+            RentDgv.Columns[0].HeaderCell.Value = "RegNo";
 
         }
 
@@ -104,11 +104,11 @@ namespace CarRen
 
         private void CarsDgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            RegNoTxt.Text = CarsDgv.SelectedRows[0].Cells[0].Value.ToString();
-            BrandTxt.Text = CarsDgv.SelectedRows[0].Cells[1].Value.ToString();
-            ModelTxt.Text = CarsDgv.SelectedRows[0].Cells[2].Value.ToString();
-            AvaliableCb.SelectedItem = CarsDgv.SelectedRows[0].Cells[3].Value.ToString();
-            PriceTxt.Text = CarsDgv.SelectedRows[0].Cells[4].Value.ToString();
+            RegNoTxt.Text = RentDgv.SelectedRows[0].Cells[0].Value.ToString();
+            BrandTxt.Text = RentDgv.SelectedRows[0].Cells[1].Value.ToString();
+            ModelTxt.Text = RentDgv.SelectedRows[0].Cells[2].Value.ToString();
+            AvaliableCb.SelectedItem = RentDgv.SelectedRows[0].Cells[3].Value.ToString();
+            PriceTxt.Text = RentDgv.SelectedRows[0].Cells[4].Value.ToString();
        
 
 

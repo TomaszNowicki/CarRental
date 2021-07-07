@@ -16,7 +16,7 @@ namespace CarRen
         {
             Application.SetCompatibleTextRenderingDefault(false);
             Application.EnableVisualStyles();
-            Application.Run(new Customers());
+            Application.Run(new Rental());
         }
     }
 }

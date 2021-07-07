@@ -34,7 +34,7 @@ namespace CarRen
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cars));
-            this.CarsDgv = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.RentDgv = new Guna.UI2.WinForms.Guna2DataGridView();
             this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
@@ -60,21 +60,21 @@ namespace CarRen
             this.AvaliableCb = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            ((System.ComponentModel.ISupportInitialize)(this.CarsDgv)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RentDgv)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // CarsDgv
+            // RentDgv
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.CarsDgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.CarsDgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.CarsDgv.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.CarsDgv.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.CarsDgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.CarsDgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.RentDgv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.RentDgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.RentDgv.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.RentDgv.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.RentDgv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.RentDgv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.SlateGray;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
@@ -82,8 +82,8 @@ namespace CarRen
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.CarsDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.CarsDgv.ColumnHeadersHeight = 20;
+            this.RentDgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.RentDgv.ColumnHeadersHeight = 20;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.LightGray;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
@@ -91,38 +91,38 @@ namespace CarRen
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.SlateGray;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.CarsDgv.DefaultCellStyle = dataGridViewCellStyle3;
-            this.CarsDgv.EnableHeadersVisualStyles = false;
-            this.CarsDgv.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.CarsDgv.Location = new System.Drawing.Point(482, 186);
-            this.CarsDgv.Name = "CarsDgv";
-            this.CarsDgv.ReadOnly = true;
-            this.CarsDgv.RowHeadersVisible = false;
-            this.CarsDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.CarsDgv.Size = new System.Drawing.Size(418, 312);
-            this.CarsDgv.TabIndex = 39;
-            this.CarsDgv.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.CarsDgv.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.CarsDgv.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.CarsDgv.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.CarsDgv.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.CarsDgv.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.CarsDgv.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.CarsDgv.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.SlateGray;
-            this.CarsDgv.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.CarsDgv.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.CarsDgv.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.CarsDgv.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.CarsDgv.ThemeStyle.HeaderStyle.Height = 20;
-            this.CarsDgv.ThemeStyle.ReadOnly = true;
-            this.CarsDgv.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.LightGray;
-            this.CarsDgv.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.CarsDgv.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            this.CarsDgv.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.CarsDgv.ThemeStyle.RowsStyle.Height = 22;
-            this.CarsDgv.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.SlateGray;
-            this.CarsDgv.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.CarsDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.CarsDgv_CellContentClick);
+            this.RentDgv.DefaultCellStyle = dataGridViewCellStyle3;
+            this.RentDgv.EnableHeadersVisualStyles = false;
+            this.RentDgv.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.RentDgv.Location = new System.Drawing.Point(482, 186);
+            this.RentDgv.Name = "RentDgv";
+            this.RentDgv.ReadOnly = true;
+            this.RentDgv.RowHeadersVisible = false;
+            this.RentDgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.RentDgv.Size = new System.Drawing.Size(418, 312);
+            this.RentDgv.TabIndex = 39;
+            this.RentDgv.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.RentDgv.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.RentDgv.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.RentDgv.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.RentDgv.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.RentDgv.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.RentDgv.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.RentDgv.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.SlateGray;
+            this.RentDgv.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.RentDgv.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.RentDgv.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.RentDgv.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.RentDgv.ThemeStyle.HeaderStyle.Height = 20;
+            this.RentDgv.ThemeStyle.ReadOnly = true;
+            this.RentDgv.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.LightGray;
+            this.RentDgv.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.RentDgv.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            this.RentDgv.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.RentDgv.ThemeStyle.RowsStyle.Height = 22;
+            this.RentDgv.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.SlateGray;
+            this.RentDgv.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.RentDgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.CarsDgv_CellContentClick);
             // 
             // label6
             // 
@@ -575,7 +575,7 @@ namespace CarRen
             this.Controls.Add(this.RegNoTxt);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.PriceTxt);
-            this.Controls.Add(this.CarsDgv);
+            this.Controls.Add(this.RentDgv);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.guna2Button4);
             this.Controls.Add(this.guna2Button3);
@@ -593,7 +593,7 @@ namespace CarRen
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cars";
             this.Load += new System.EventHandler(this.Cars_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.CarsDgv)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.RentDgv)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -606,7 +606,7 @@ namespace CarRen
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2DataGridView CarsDgv;
+        private Guna.UI2.WinForms.Guna2DataGridView RentDgv;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel2;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
