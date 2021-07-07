@@ -86,6 +86,8 @@ namespace CarRen
         private void Users_Load_1(object sender, EventArgs e)
         {
             populate();
+            UserDgv.Columns[1].HeaderCell.Value = "User";
+            UserDgv.Columns[2].HeaderCell.Value = "Password";
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
@@ -160,6 +162,20 @@ namespace CarRen
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            UsersPL usersPL = new UsersPL();
+            usersPL.Show();
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Users users = new Users();
+            users.Show();
         }
     }
 }

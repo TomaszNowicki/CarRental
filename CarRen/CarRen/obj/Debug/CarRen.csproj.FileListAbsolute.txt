@@ -18,3 +18,6 @@ D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.Users.dje.resources
 D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\dje\CarRen.resources.dll
 D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.Cars.resources
 D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.LoginPL.resources
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.MainPL.resources
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.UsersPL.resources
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.CarsPL.resources

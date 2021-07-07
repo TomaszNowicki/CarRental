@@ -55,6 +55,12 @@
     <Compile Include="Cars.Designer.cs">
       <DependentUpon>Cars.cs</DependentUpon>
     </Compile>
+    <Compile Include="CarsPL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarsPL.Designer.cs">
+      <DependentUpon>CarsPL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,12 @@
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="MainPL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPL.Designer.cs">
+      <DependentUpon>MainPL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Spinner.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,8 +99,17 @@
     <Compile Include="Users.Designer.cs">
       <DependentUpon>Users.cs</DependentUpon>
     </Compile>
+    <Compile Include="UsersPL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersPL.Designer.cs">
+      <DependentUpon>UsersPL.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Cars.resx">
       <DependentUpon>Cars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarsPL.resx">
+      <DependentUpon>CarsPL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -98,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPL.resx">
+      <DependentUpon>MainPL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Spinner.resx">
       <DependentUpon>Spinner.cs</DependentUpon>
@@ -116,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Users.resx">
       <DependentUpon>Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersPL.resx">
+      <DependentUpon>UsersPL.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -41,5 +41,24 @@ namespace CarRen
             Users users = new Users();
             users.Show();
         }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainPL mainPL = new MainPL();
+            mainPL.Show();
+        }
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Main main = new Main();
+            main.Show();
+        }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

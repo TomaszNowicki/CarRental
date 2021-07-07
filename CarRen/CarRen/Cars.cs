@@ -16,6 +16,7 @@ namespace CarRen
         public Cars()
         {
             InitializeComponent();
+            
         }
 
         SqlConnection Con = new SqlConnection(@"Data Source=DESKTOP-CNP1N0H\SQLEXPRESS;Initial Catalog=CaRReNdb;Integrated Security=True;Connect Timeout=30");
@@ -66,6 +67,7 @@ namespace CarRen
         private void Cars_Load(object sender, EventArgs e)
         {
             populate();
+            CarsDgv.Columns[0].HeaderCell.Value = "RegNo";
 
         }
 
@@ -107,6 +109,7 @@ namespace CarRen
             ModelTxt.Text = CarsDgv.SelectedRows[0].Cells[2].Value.ToString();
             AvaliableCb.SelectedItem = CarsDgv.SelectedRows[0].Cells[3].Value.ToString();
             PriceTxt.Text = CarsDgv.SelectedRows[0].Cells[4].Value.ToString();
+       
 
 
         }
@@ -122,7 +125,7 @@ namespace CarRen
                 try
                 {
                     Con.Open();
-                    String query = "update CarTbl set Brand='" + BrandTxt.Text + "', Model='" + ModelTxt.Text + "', Avaliable = '" + AvaliableCb.SelectedItem.ToString() + "', Price = " + PriceTxt.Text + " where RegNumber='" + RegNoTxt.Text + "';";
+                    String query = "update CarTbl set Brand='" + BrandTxt.Text + "', Model='" + ModelTxt.Text + "', Avaliable = '" + AvaliableCb.SelectedItem.ToString() + "', Price ='" + PriceTxt.Text + "' where RegNumber='" + RegNoTxt.Text + "';";
 
                     SqlCommand cmd = new SqlCommand(query, Con);
                     cmd.ExecuteNonQuery();
@@ -144,6 +147,20 @@ namespace CarRen
             Main main = new Main();
             main.Show();
 
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CarsPL carsPL = new CarsPL();
+            carsPL.Show();
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Cars cars = new Cars();
+            cars.Show();
         }
     }
 }
