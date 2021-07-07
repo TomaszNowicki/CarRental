@@ -155,7 +155,7 @@ namespace CarRen
             this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
             this.guna2Button2.Size = new System.Drawing.Size(180, 28);
             this.guna2Button2.TabIndex = 9;
-            this.guna2Button2.Text = "REANTAL";
+            this.guna2Button2.Text = "RENTAL";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button3

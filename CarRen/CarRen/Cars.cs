@@ -49,7 +49,7 @@ namespace CarRen
                 try
                 {
                     Con.Open();
-                    String query = "insert into CarTbl values('" + RegNoTxt.Text + "','" + BrandTxt.Text + "','" + ModelTxt.Text + "','" + AvaliableCb.SelectedItem.ToString() + "','" + PriceTxt.Text + "')";
+                    String query = "insert into CarTbl values('" + RegNoTxt.Text + "','" + BrandTxt.Text + "','" + ModelTxt.Text + "','" + AvailableCb.SelectedItem.ToString() + "','" + PriceTxt.Text + "')";
                     SqlCommand cmd = new SqlCommand(query, Con);
                     cmd.ExecuteNonQuery();
                     MessageBox.Show("Car Successfully Added");
@@ -107,7 +107,7 @@ namespace CarRen
             RegNoTxt.Text = RentDgv.SelectedRows[0].Cells[0].Value.ToString();
             BrandTxt.Text = RentDgv.SelectedRows[0].Cells[1].Value.ToString();
             ModelTxt.Text = RentDgv.SelectedRows[0].Cells[2].Value.ToString();
-            AvaliableCb.SelectedItem = RentDgv.SelectedRows[0].Cells[3].Value.ToString();
+            AvailableCb.SelectedItem = RentDgv.SelectedRows[0].Cells[3].Value.ToString();
             PriceTxt.Text = RentDgv.SelectedRows[0].Cells[4].Value.ToString();
        
 
@@ -125,7 +125,7 @@ namespace CarRen
                 try
                 {
                     Con.Open();
-                    String query = "update CarTbl set Brand='" + BrandTxt.Text + "', Model='" + ModelTxt.Text + "', Avaliable = '" + AvaliableCb.SelectedItem.ToString() + "', Price ='" + PriceTxt.Text + "' where RegNumber='" + RegNoTxt.Text + "';";
+                    String query = "update CarTbl set Brand='" + BrandTxt.Text + "', Model='" + ModelTxt.Text + "', Available = '" + AvailableCb.SelectedItem.ToString() + "', Price ='" + PriceTxt.Text + "' where RegNumber='" + RegNoTxt.Text + "';";
 
                     SqlCommand cmd = new SqlCommand(query, Con);
                     cmd.ExecuteNonQuery();
@@ -161,6 +161,11 @@ namespace CarRen
             this.Hide();
             Cars cars = new Cars();
             cars.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

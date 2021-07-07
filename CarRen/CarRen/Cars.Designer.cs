@@ -57,7 +57,7 @@ namespace CarRen
             this.RegNoTxt = new Guna.UI2.WinForms.Guna2TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.AvaliableCb = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.AvailableCb = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.RentDgv)).BeginInit();
@@ -391,6 +391,7 @@ namespace CarRen
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(924, 115);
             this.panel1.TabIndex = 26;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // guna2CirclePictureBox1
             // 
@@ -487,32 +488,32 @@ namespace CarRen
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(124, 28);
             this.label10.TabIndex = 43;
-            this.label10.Text = "Avaliable";
+            this.label10.Text = "Available";
             // 
-            // AvaliableCb
+            // AvailableCb
             // 
-            this.AvaliableCb.BackColor = System.Drawing.Color.Transparent;
-            this.AvaliableCb.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.AvaliableCb.BorderRadius = 18;
-            this.AvaliableCb.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.AvaliableCb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.AvaliableCb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.AvaliableCb.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.AvaliableCb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.AvaliableCb.FocusedState.Parent = this.AvaliableCb;
-            this.AvaliableCb.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.AvaliableCb.ForeColor = System.Drawing.Color.SlateGray;
-            this.AvaliableCb.HoverState.Parent = this.AvaliableCb;
-            this.AvaliableCb.ItemHeight = 30;
-            this.AvaliableCb.Items.AddRange(new object[] {
+            this.AvailableCb.BackColor = System.Drawing.Color.Transparent;
+            this.AvailableCb.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.AvailableCb.BorderRadius = 18;
+            this.AvailableCb.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.AvailableCb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.AvailableCb.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.AvailableCb.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.AvailableCb.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.AvailableCb.FocusedState.Parent = this.AvailableCb;
+            this.AvailableCb.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.AvailableCb.ForeColor = System.Drawing.Color.SlateGray;
+            this.AvailableCb.HoverState.Parent = this.AvailableCb;
+            this.AvailableCb.ItemHeight = 30;
+            this.AvailableCb.Items.AddRange(new object[] {
             "YES",
             "NO"});
-            this.AvaliableCb.ItemsAppearance.Parent = this.AvaliableCb;
-            this.AvaliableCb.Location = new System.Drawing.Point(161, 406);
-            this.AvaliableCb.Name = "AvaliableCb";
-            this.AvaliableCb.ShadowDecoration.Parent = this.AvaliableCb;
-            this.AvaliableCb.Size = new System.Drawing.Size(286, 36);
-            this.AvaliableCb.TabIndex = 44;
+            this.AvailableCb.ItemsAppearance.Parent = this.AvailableCb;
+            this.AvailableCb.Location = new System.Drawing.Point(161, 406);
+            this.AvailableCb.Name = "AvailableCb";
+            this.AvailableCb.ShadowDecoration.Parent = this.AvailableCb;
+            this.AvailableCb.Size = new System.Drawing.Size(286, 36);
+            this.AvailableCb.TabIndex = 44;
             // 
             // guna2Button5
             // 
@@ -570,7 +571,7 @@ namespace CarRen
             this.ClientSize = new System.Drawing.Size(924, 590);
             this.Controls.Add(this.guna2Button5);
             this.Controls.Add(this.guna2Button6);
-            this.Controls.Add(this.AvaliableCb);
+            this.Controls.Add(this.AvailableCb);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.RegNoTxt);
             this.Controls.Add(this.label9);
@@ -629,7 +630,7 @@ namespace CarRen
         private Guna.UI2.WinForms.Guna2TextBox RegNoTxt;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private Guna.UI2.WinForms.Guna2ComboBox AvaliableCb;
+        private Guna.UI2.WinForms.Guna2ComboBox AvailableCb;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
     }
