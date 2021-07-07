@@ -61,6 +61,18 @@
     <Compile Include="CarsPL.Designer.cs">
       <DependentUpon>CarsPL.cs</DependentUpon>
     </Compile>
+    <Compile Include="Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers.Designer.cs">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomersPL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomersPL.Designer.cs">
+      <DependentUpon>CustomersPL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +122,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CarsPL.resx">
       <DependentUpon>CarsPL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers.resx">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomersPL.resx">
+      <DependentUpon>CustomersPL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

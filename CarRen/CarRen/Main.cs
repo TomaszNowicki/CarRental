@@ -60,5 +60,12 @@ namespace CarRen
         {
 
         }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Customers customers = new Customers();
+            customers.Show();
+        }
     }
 }

@@ -21,3 +21,5 @@ D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.LoginPL.resources
 D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.MainPL.resources
 D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.UsersPL.resources
 D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.CarsPL.resources
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.Customers.resources
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.CustomersPL.resources

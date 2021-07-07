@@ -223,6 +223,7 @@ namespace CarRen
             this.guna2Button5.Size = new System.Drawing.Size(180, 28);
             this.guna2Button5.TabIndex = 12;
             this.guna2Button5.Text = "CUSTOMER";
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
             // panel2
             // 
