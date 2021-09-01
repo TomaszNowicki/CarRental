@@ -16,7 +16,7 @@ namespace CarRen
         public Cars()
         {
             InitializeComponent();
-            
+
         }
 
         SqlConnection Con = new SqlConnection(@"Data Source=DESKTOP-CNP1N0H\SQLEXPRESS;Initial Catalog=CaRReNdb;Integrated Security=True;Connect Timeout=30");
@@ -29,7 +29,7 @@ namespace CarRen
             SqlCommandBuilder builder = new SqlCommandBuilder(da);
             var ds = new DataSet();
             da.Fill(ds);
-            RentDgv.DataSource = ds.Tables[0];
+            CarsDgv.DataSource = ds.Tables[0];
             Con.Close();
         }
 
@@ -64,13 +64,27 @@ namespace CarRen
             }
         }
 
+
         private void Cars_Load(object sender, EventArgs e)
         {
             populate();
-            RentDgv.Columns[0].HeaderCell.Value = "RegNo";
+
+            CarsDgv.Columns[0].HeaderCell.Value = "RegNo";
 
         }
+        protected override void WndProc(ref Message m) // pouszanie oknem
+        {
+            switch (m.Msg)
+            {
+                case 0x84:
+                    base.WndProc(ref m);
+                    if ((int)m.Result == 0x1)
+                        m.Result = (IntPtr)0x2;
+                    return;
+            }
 
+            base.WndProc(ref m);
+        }
         private void label4_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -104,12 +118,12 @@ namespace CarRen
 
         private void CarsDgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            RegNoTxt.Text = RentDgv.SelectedRows[0].Cells[0].Value.ToString();
-            BrandTxt.Text = RentDgv.SelectedRows[0].Cells[1].Value.ToString();
-            ModelTxt.Text = RentDgv.SelectedRows[0].Cells[2].Value.ToString();
-            AvailableCb.SelectedItem = RentDgv.SelectedRows[0].Cells[3].Value.ToString();
-            PriceTxt.Text = RentDgv.SelectedRows[0].Cells[4].Value.ToString();
-       
+            RegNoTxt.Text = CarsDgv.SelectedRows[0].Cells[0].Value.ToString();
+            BrandTxt.Text = CarsDgv.SelectedRows[0].Cells[1].Value.ToString();
+            ModelTxt.Text = CarsDgv.SelectedRows[0].Cells[2].Value.ToString();
+            AvailableCb.SelectedItem = CarsDgv.SelectedRows[0].Cells[3].Value.ToString();
+            PriceTxt.Text = CarsDgv.SelectedRows[0].Cells[4].Value.ToString();
+
 
 
         }
@@ -166,6 +180,33 @@ namespace CarRen
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            populate();
+        }
+
+        private void Search_SelectionChangeCommitted(object sender, EventArgs e)
+        {
+            string flag = "";
+            if (Search.SelectedItem.ToString() == "Available")
+            {
+                flag = "YES";
+            }
+            else 
+            {
+                flag = "NO";
+            }
+
+            Con.Open();
+            string query = "select * from CarTbl where Available = '"+flag+"'";
+            SqlDataAdapter da = new SqlDataAdapter(query, Con);
+            SqlCommandBuilder builder = new SqlCommandBuilder(da);
+            var ds = new DataSet();
+            da.Fill(ds);
+            CarsDgv.DataSource = ds.Tables[0];
+            Con.Close();
         }
     }
 }

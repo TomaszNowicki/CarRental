@@ -36,7 +36,19 @@ namespace CarRen
             UserDgv.DataSource = ds.Tables[0];
             Con.Close();
         }
+        protected override void WndProc(ref Message m) // pouszanie oknem
+        {
+            switch (m.Msg)
+            {
+                case 0x84:
+                    base.WndProc(ref m);
+                    if ((int)m.Result == 0x1)
+                        m.Result = (IntPtr)0x2;
+                    return;
+            }
 
+            base.WndProc(ref m);
+        }
         private void label7_Click(object sender, EventArgs e)
         {
 
