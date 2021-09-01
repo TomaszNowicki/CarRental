@@ -103,6 +103,12 @@
     <Compile Include="Rental.Designer.cs">
       <DependentUpon>Rental.cs</DependentUpon>
     </Compile>
+    <Compile Include="RentalPL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RentalPL.Designer.cs">
+      <DependentUpon>RentalPL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Spinner.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,6 +155,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Rental.resx">
       <DependentUpon>Rental.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rental.wo.resx">
+      <DependentUpon>Rental.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RentalPL.resx">
+      <DependentUpon>RentalPL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Spinner.resx">
       <DependentUpon>Spinner.cs</DependentUpon>

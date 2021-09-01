@@ -15,8 +15,8 @@ namespace CarRen
         static void Main()
         {
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.EnableVisualStyles();
-            Application.Run(new Rental());
+            //Application.EnableVisualStyles();
+            Application.Run(new Main());
         }
     }
 }
