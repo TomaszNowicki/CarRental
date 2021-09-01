@@ -28,3 +28,5 @@ D:\projekty\CarRentalSystem\CarRen\CarRen\bin\Debug\wo\CarRen.resources.dll
 D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.Rental.wo.resources
 D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\wo\CarRen.resources.dll
 D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.RentalPL.resources
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.Return.resources
+D:\projekty\CarRentalSystem\CarRen\CarRen\obj\Debug\CarRen.ReturnPL.resources

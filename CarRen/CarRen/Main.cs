@@ -75,5 +75,13 @@ namespace CarRen
             rental.Show();
 
         }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Return ret = new Return();
+            ret.Show();
+
+        }
     }
 }

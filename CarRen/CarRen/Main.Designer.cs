@@ -58,8 +58,9 @@ namespace CarRen
             this.panel1.Controls.Add(this.label4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(924, 115);
+            this.panel1.Size = new System.Drawing.Size(1232, 142);
             this.panel1.TabIndex = 0;
             // 
             // label2
@@ -67,7 +68,8 @@ namespace CarRen
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.Color.LightGray;
-            this.label2.Location = new System.Drawing.Point(296, 19);
+            this.label2.Location = new System.Drawing.Point(395, 23);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(292, 36);
             this.label2.TabIndex = 8;
@@ -78,7 +80,8 @@ namespace CarRen
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.LightGray;
-            this.label1.Location = new System.Drawing.Point(376, 64);
+            this.label1.Location = new System.Drawing.Point(501, 79);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(131, 36);
             this.label1.TabIndex = 7;
@@ -89,7 +92,8 @@ namespace CarRen
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label4.ForeColor = System.Drawing.Color.LightGray;
-            this.label4.Location = new System.Drawing.Point(876, 9);
+            this.label4.Location = new System.Drawing.Point(1168, 11);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 36);
             this.label4.TabIndex = 6;
@@ -102,11 +106,12 @@ namespace CarRen
             this.guna2CirclePictureBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
             this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(244, 3);
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(325, 4);
+            this.guna2CirclePictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
             this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox1.ShadowDecoration.Parent = this.guna2CirclePictureBox1;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(644, 544);
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(859, 670);
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox1.TabIndex = 2;
             this.guna2CirclePictureBox1.TabStop = false;
@@ -115,7 +120,7 @@ namespace CarRen
             // guna2Button1
             // 
             this.guna2Button1.AutoRoundedCorners = true;
-            this.guna2Button1.BorderRadius = 13;
+            this.guna2Button1.BorderRadius = 16;
             this.guna2Button1.CheckedState.Parent = this.guna2Button1;
             this.guna2Button1.CustomImages.Parent = this.guna2Button1;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -127,10 +132,11 @@ namespace CarRen
             this.guna2Button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.guna2Button1.ForeColor = System.Drawing.Color.LightGray;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(23, 131);
+            this.guna2Button1.Location = new System.Drawing.Point(31, 161);
+            this.guna2Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(180, 28);
+            this.guna2Button1.Size = new System.Drawing.Size(240, 34);
             this.guna2Button1.TabIndex = 8;
             this.guna2Button1.Text = "CAR";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
@@ -138,7 +144,7 @@ namespace CarRen
             // guna2Button2
             // 
             this.guna2Button2.AutoRoundedCorners = true;
-            this.guna2Button2.BorderRadius = 13;
+            this.guna2Button2.BorderRadius = 16;
             this.guna2Button2.CheckedState.Parent = this.guna2Button2;
             this.guna2Button2.CustomImages.Parent = this.guna2Button2;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -150,10 +156,11 @@ namespace CarRen
             this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.guna2Button2.ForeColor = System.Drawing.Color.LightGray;
             this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(23, 199);
+            this.guna2Button2.Location = new System.Drawing.Point(31, 245);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(180, 28);
+            this.guna2Button2.Size = new System.Drawing.Size(240, 34);
             this.guna2Button2.TabIndex = 9;
             this.guna2Button2.Text = "RENTAL";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
@@ -161,7 +168,7 @@ namespace CarRen
             // guna2Button3
             // 
             this.guna2Button3.AutoRoundedCorners = true;
-            this.guna2Button3.BorderRadius = 13;
+            this.guna2Button3.BorderRadius = 16;
             this.guna2Button3.CheckedState.Parent = this.guna2Button3;
             this.guna2Button3.CustomImages.Parent = this.guna2Button3;
             this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -173,17 +180,19 @@ namespace CarRen
             this.guna2Button3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.guna2Button3.ForeColor = System.Drawing.Color.LightGray;
             this.guna2Button3.HoverState.Parent = this.guna2Button3;
-            this.guna2Button3.Location = new System.Drawing.Point(23, 233);
+            this.guna2Button3.Location = new System.Drawing.Point(31, 287);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.ShadowDecoration.Parent = this.guna2Button3;
-            this.guna2Button3.Size = new System.Drawing.Size(180, 28);
+            this.guna2Button3.Size = new System.Drawing.Size(240, 34);
             this.guna2Button3.TabIndex = 10;
             this.guna2Button3.Text = "RETURN";
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // guna2Button4
             // 
             this.guna2Button4.AutoRoundedCorners = true;
-            this.guna2Button4.BorderRadius = 13;
+            this.guna2Button4.BorderRadius = 16;
             this.guna2Button4.CheckedState.Parent = this.guna2Button4;
             this.guna2Button4.CustomImages.Parent = this.guna2Button4;
             this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -195,10 +204,11 @@ namespace CarRen
             this.guna2Button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.guna2Button4.ForeColor = System.Drawing.Color.LightGray;
             this.guna2Button4.HoverState.Parent = this.guna2Button4;
-            this.guna2Button4.Location = new System.Drawing.Point(23, 267);
+            this.guna2Button4.Location = new System.Drawing.Point(31, 329);
+            this.guna2Button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.ShadowDecoration.Parent = this.guna2Button4;
-            this.guna2Button4.Size = new System.Drawing.Size(180, 28);
+            this.guna2Button4.Size = new System.Drawing.Size(240, 34);
             this.guna2Button4.TabIndex = 11;
             this.guna2Button4.Text = "USERS";
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
@@ -206,7 +216,7 @@ namespace CarRen
             // guna2Button5
             // 
             this.guna2Button5.AutoRoundedCorners = true;
-            this.guna2Button5.BorderRadius = 13;
+            this.guna2Button5.BorderRadius = 16;
             this.guna2Button5.CheckedState.Parent = this.guna2Button5;
             this.guna2Button5.CustomImages.Parent = this.guna2Button5;
             this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -218,10 +228,11 @@ namespace CarRen
             this.guna2Button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.guna2Button5.ForeColor = System.Drawing.Color.LightGray;
             this.guna2Button5.HoverState.Parent = this.guna2Button5;
-            this.guna2Button5.Location = new System.Drawing.Point(23, 165);
+            this.guna2Button5.Location = new System.Drawing.Point(31, 203);
+            this.guna2Button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.ShadowDecoration.Parent = this.guna2Button5;
-            this.guna2Button5.Size = new System.Drawing.Size(180, 28);
+            this.guna2Button5.Size = new System.Drawing.Size(240, 34);
             this.guna2Button5.TabIndex = 12;
             this.guna2Button5.Text = "CUSTOMER";
             this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
@@ -231,9 +242,10 @@ namespace CarRen
             this.panel2.BackColor = System.Drawing.Color.SlateGray;
             this.panel2.Controls.Add(this.label3);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 561);
+            this.panel2.Location = new System.Drawing.Point(0, 690);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(924, 29);
+            this.panel2.Size = new System.Drawing.Size(1232, 36);
             this.panel2.TabIndex = 13;
             // 
             // label3
@@ -241,7 +253,8 @@ namespace CarRen
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label3.ForeColor = System.Drawing.Color.LightGray;
-            this.label3.Location = new System.Drawing.Point(361, 6);
+            this.label3.Location = new System.Drawing.Point(481, 7);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(192, 23);
             this.label3.TabIndex = 14;
@@ -250,7 +263,7 @@ namespace CarRen
             // guna2Button6
             // 
             this.guna2Button6.AutoRoundedCorners = true;
-            this.guna2Button6.BorderRadius = 13;
+            this.guna2Button6.BorderRadius = 16;
             this.guna2Button6.CheckedState.Parent = this.guna2Button6;
             this.guna2Button6.CustomImages.Parent = this.guna2Button6;
             this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -262,17 +275,18 @@ namespace CarRen
             this.guna2Button6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.guna2Button6.ForeColor = System.Drawing.Color.LightGray;
             this.guna2Button6.HoverState.Parent = this.guna2Button6;
-            this.guna2Button6.Location = new System.Drawing.Point(373, 519);
+            this.guna2Button6.Location = new System.Drawing.Point(497, 639);
+            this.guna2Button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.ShadowDecoration.Parent = this.guna2Button6;
-            this.guna2Button6.Size = new System.Drawing.Size(180, 28);
+            this.guna2Button6.Size = new System.Drawing.Size(240, 34);
             this.guna2Button6.TabIndex = 14;
             this.guna2Button6.Text = "Logout";
             // 
             // guna2Button7
             // 
             this.guna2Button7.AutoRoundedCorners = true;
-            this.guna2Button7.BorderRadius = 13;
+            this.guna2Button7.BorderRadius = 16;
             this.guna2Button7.CheckedState.Parent = this.guna2Button7;
             this.guna2Button7.CustomImages.Parent = this.guna2Button7;
             this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -284,10 +298,11 @@ namespace CarRen
             this.guna2Button7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.guna2Button7.ForeColor = System.Drawing.Color.LightGray;
             this.guna2Button7.HoverState.Parent = this.guna2Button7;
-            this.guna2Button7.Location = new System.Drawing.Point(806, 527);
+            this.guna2Button7.Location = new System.Drawing.Point(1075, 649);
+            this.guna2Button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button7.Name = "guna2Button7";
             this.guna2Button7.ShadowDecoration.Parent = this.guna2Button7;
-            this.guna2Button7.Size = new System.Drawing.Size(50, 28);
+            this.guna2Button7.Size = new System.Drawing.Size(67, 34);
             this.guna2Button7.TabIndex = 17;
             this.guna2Button7.Text = "PL";
             this.guna2Button7.Click += new System.EventHandler(this.guna2Button7_Click);
@@ -296,7 +311,7 @@ namespace CarRen
             // 
             this.guna2Button8.AutoRoundedCorners = true;
             this.guna2Button8.BorderColor = System.Drawing.Color.SlateGray;
-            this.guna2Button8.BorderRadius = 13;
+            this.guna2Button8.BorderRadius = 16;
             this.guna2Button8.BorderThickness = 2;
             this.guna2Button8.CheckedState.Parent = this.guna2Button8;
             this.guna2Button8.CustomImages.Parent = this.guna2Button8;
@@ -309,20 +324,21 @@ namespace CarRen
             this.guna2Button8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.guna2Button8.ForeColor = System.Drawing.Color.SlateGray;
             this.guna2Button8.HoverState.Parent = this.guna2Button8;
-            this.guna2Button8.Location = new System.Drawing.Point(862, 527);
+            this.guna2Button8.Location = new System.Drawing.Point(1149, 649);
+            this.guna2Button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button8.Name = "guna2Button8";
             this.guna2Button8.ShadowDecoration.Parent = this.guna2Button8;
-            this.guna2Button8.Size = new System.Drawing.Size(50, 28);
+            this.guna2Button8.Size = new System.Drawing.Size(67, 34);
             this.guna2Button8.TabIndex = 16;
             this.guna2Button8.Text = "EN";
             this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(924, 590);
+            this.ClientSize = new System.Drawing.Size(1232, 726);
             this.Controls.Add(this.guna2Button7);
             this.Controls.Add(this.guna2Button8);
             this.Controls.Add(this.guna2Button6);
@@ -335,6 +351,7 @@ namespace CarRen
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2CirclePictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
