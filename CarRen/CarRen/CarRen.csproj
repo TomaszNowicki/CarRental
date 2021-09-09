@@ -115,12 +115,6 @@
     <Compile Include="Return.Designer.cs">
       <DependentUpon>Return.cs</DependentUpon>
     </Compile>
-    <Compile Include="ReturnPL.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ReturnPL.Designer.cs">
-      <DependentUpon>ReturnPL.cs</DependentUpon>
-    </Compile>
     <Compile Include="Spinner.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -176,9 +170,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Return.resx">
       <DependentUpon>Return.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ReturnPL.resx">
-      <DependentUpon>ReturnPL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Spinner.resx">
       <DependentUpon>Spinner.cs</DependentUpon>
