@@ -96,5 +96,13 @@ namespace CarRen
             ret.Show();
 
         }
+
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            DBoard dboard = new DBoard();
+            dboard.Show();
+
+        }
     }
 }

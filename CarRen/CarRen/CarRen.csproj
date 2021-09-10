@@ -73,6 +73,18 @@
     <Compile Include="CustomersPL.Designer.cs">
       <DependentUpon>CustomersPL.cs</DependentUpon>
     </Compile>
+    <Compile Include="DBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBoard.Designer.cs">
+      <DependentUpon>DBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBoardPL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBoardPL.Designer.cs">
+      <DependentUpon>DBoardPL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -152,6 +164,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CustomersPL.resx">
       <DependentUpon>CustomersPL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBoard.resx">
+      <DependentUpon>DBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DBoardPL.resx">
+      <DependentUpon>DBoardPL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
