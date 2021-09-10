@@ -115,6 +115,7 @@ namespace CarRen
             // 
             // guna2Button1
             // 
+            this.guna2Button1.Animated = true;
             this.guna2Button1.AutoRoundedCorners = true;
             this.guna2Button1.BorderRadius = 13;
             this.guna2Button1.CheckedState.Parent = this.guna2Button1;
@@ -125,7 +126,7 @@ namespace CarRen
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.DisabledState.Parent = this.guna2Button1;
             this.guna2Button1.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.guna2Button1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.guna2Button1.ForeColor = System.Drawing.Color.LightGray;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Location = new System.Drawing.Point(23, 131);
@@ -138,6 +139,7 @@ namespace CarRen
             // 
             // guna2Button2
             // 
+            this.guna2Button2.Animated = true;
             this.guna2Button2.AutoRoundedCorners = true;
             this.guna2Button2.BorderRadius = 13;
             this.guna2Button2.CheckedState.Parent = this.guna2Button2;
@@ -148,7 +150,7 @@ namespace CarRen
             this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button2.DisabledState.Parent = this.guna2Button2;
             this.guna2Button2.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.guna2Button2.ForeColor = System.Drawing.Color.LightGray;
             this.guna2Button2.HoverState.Parent = this.guna2Button2;
             this.guna2Button2.Location = new System.Drawing.Point(23, 199);
@@ -161,6 +163,7 @@ namespace CarRen
             // 
             // guna2Button3
             // 
+            this.guna2Button3.Animated = true;
             this.guna2Button3.AutoRoundedCorners = true;
             this.guna2Button3.BorderRadius = 13;
             this.guna2Button3.CheckedState.Parent = this.guna2Button3;
@@ -184,6 +187,7 @@ namespace CarRen
             // 
             // guna2Button4
             // 
+            this.guna2Button4.Animated = true;
             this.guna2Button4.AutoRoundedCorners = true;
             this.guna2Button4.BorderRadius = 13;
             this.guna2Button4.CheckedState.Parent = this.guna2Button4;
@@ -194,7 +198,7 @@ namespace CarRen
             this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button4.DisabledState.Parent = this.guna2Button4;
             this.guna2Button4.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.guna2Button4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.guna2Button4.ForeColor = System.Drawing.Color.LightGray;
             this.guna2Button4.HoverState.Parent = this.guna2Button4;
             this.guna2Button4.Location = new System.Drawing.Point(23, 267);
@@ -207,6 +211,7 @@ namespace CarRen
             // 
             // guna2Button5
             // 
+            this.guna2Button5.Animated = true;
             this.guna2Button5.AutoRoundedCorners = true;
             this.guna2Button5.BorderRadius = 13;
             this.guna2Button5.CheckedState.Parent = this.guna2Button5;
@@ -217,7 +222,7 @@ namespace CarRen
             this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button5.DisabledState.Parent = this.guna2Button5;
             this.guna2Button5.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.guna2Button5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.guna2Button5.ForeColor = System.Drawing.Color.LightGray;
             this.guna2Button5.HoverState.Parent = this.guna2Button5;
             this.guna2Button5.Location = new System.Drawing.Point(23, 165);
@@ -251,6 +256,7 @@ namespace CarRen
             // 
             // guna2Button6
             // 
+            this.guna2Button6.Animated = true;
             this.guna2Button6.AutoRoundedCorners = true;
             this.guna2Button6.BorderRadius = 13;
             this.guna2Button6.CheckedState.Parent = this.guna2Button6;
@@ -261,7 +267,7 @@ namespace CarRen
             this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button6.DisabledState.Parent = this.guna2Button6;
             this.guna2Button6.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Button6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.guna2Button6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.guna2Button6.ForeColor = System.Drawing.Color.LightGray;
             this.guna2Button6.HoverState.Parent = this.guna2Button6;
             this.guna2Button6.Location = new System.Drawing.Point(373, 519);
@@ -270,9 +276,11 @@ namespace CarRen
             this.guna2Button6.Size = new System.Drawing.Size(180, 28);
             this.guna2Button6.TabIndex = 14;
             this.guna2Button6.Text = "Logout";
+            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
             // guna2Button7
             // 
+            this.guna2Button7.Animated = true;
             this.guna2Button7.AutoRoundedCorners = true;
             this.guna2Button7.BorderRadius = 13;
             this.guna2Button7.CheckedState.Parent = this.guna2Button7;
@@ -283,7 +291,7 @@ namespace CarRen
             this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button7.DisabledState.Parent = this.guna2Button7;
             this.guna2Button7.FillColor = System.Drawing.Color.SlateGray;
-            this.guna2Button7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.guna2Button7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.guna2Button7.ForeColor = System.Drawing.Color.LightGray;
             this.guna2Button7.HoverState.Parent = this.guna2Button7;
             this.guna2Button7.Location = new System.Drawing.Point(806, 527);
@@ -296,6 +304,7 @@ namespace CarRen
             // 
             // guna2Button8
             // 
+            this.guna2Button8.Animated = true;
             this.guna2Button8.AutoRoundedCorners = true;
             this.guna2Button8.BorderColor = System.Drawing.Color.SlateGray;
             this.guna2Button8.BorderRadius = 13;
@@ -321,6 +330,7 @@ namespace CarRen
             // 
             // guna2Button9
             // 
+            this.guna2Button9.Animated = true;
             this.guna2Button9.AutoRoundedCorners = true;
             this.guna2Button9.BorderRadius = 13;
             this.guna2Button9.CheckedState.Parent = this.guna2Button9;

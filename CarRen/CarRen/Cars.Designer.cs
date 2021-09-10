@@ -153,6 +153,7 @@ namespace CarRen
             // 
             // guna2Button4
             // 
+            this.guna2Button4.Animated = true;
             this.guna2Button4.AutoRoundedCorners = true;
             this.guna2Button4.BorderRadius = 16;
             this.guna2Button4.CheckedState.Parent = this.guna2Button4;
@@ -177,6 +178,7 @@ namespace CarRen
             // 
             // guna2Button3
             // 
+            this.guna2Button3.Animated = true;
             this.guna2Button3.AutoRoundedCorners = true;
             this.guna2Button3.BorderRadius = 24;
             this.guna2Button3.CheckedState.Parent = this.guna2Button3;
@@ -201,6 +203,7 @@ namespace CarRen
             // 
             // guna2Button2
             // 
+            this.guna2Button2.Animated = true;
             this.guna2Button2.AutoRoundedCorners = true;
             this.guna2Button2.BorderRadius = 24;
             this.guna2Button2.CheckedState.Parent = this.guna2Button2;
@@ -225,6 +228,7 @@ namespace CarRen
             // 
             // guna2Button1
             // 
+            this.guna2Button1.Animated = true;
             this.guna2Button1.AutoRoundedCorners = true;
             this.guna2Button1.BorderRadius = 24;
             this.guna2Button1.CheckedState.Parent = this.guna2Button1;
@@ -262,6 +266,7 @@ namespace CarRen
             // 
             // ModelTxt
             // 
+            this.ModelTxt.Animated = true;
             this.ModelTxt.AutoRoundedCorners = true;
             this.ModelTxt.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ModelTxt.BorderRadius = 23;
@@ -273,10 +278,10 @@ namespace CarRen
             this.ModelTxt.DisabledState.Parent = this.ModelTxt;
             this.ModelTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.ModelTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ModelTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModelTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ModelTxt.FocusedState.Parent = this.ModelTxt;
             this.ModelTxt.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.ModelTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ModelTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ModelTxt.HoverState.Parent = this.ModelTxt;
             this.ModelTxt.Location = new System.Drawing.Point(215, 364);
             this.ModelTxt.Margin = new System.Windows.Forms.Padding(5);
@@ -303,6 +308,7 @@ namespace CarRen
             // 
             // BrandTxt
             // 
+            this.BrandTxt.Animated = true;
             this.BrandTxt.AutoRoundedCorners = true;
             this.BrandTxt.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.BrandTxt.BorderRadius = 23;
@@ -314,10 +320,10 @@ namespace CarRen
             this.BrandTxt.DisabledState.Parent = this.BrandTxt;
             this.BrandTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.BrandTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.BrandTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.BrandTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.BrandTxt.FocusedState.Parent = this.BrandTxt;
             this.BrandTxt.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.BrandTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.BrandTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.BrandTxt.HoverState.Parent = this.BrandTxt;
             this.BrandTxt.Location = new System.Drawing.Point(215, 298);
             this.BrandTxt.Margin = new System.Windows.Forms.Padding(5);
@@ -429,6 +435,7 @@ namespace CarRen
             // 
             // PriceTxt
             // 
+            this.PriceTxt.Animated = true;
             this.PriceTxt.AutoRoundedCorners = true;
             this.PriceTxt.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.PriceTxt.BorderRadius = 23;
@@ -440,10 +447,10 @@ namespace CarRen
             this.PriceTxt.DisabledState.Parent = this.PriceTxt;
             this.PriceTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.PriceTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.PriceTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PriceTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.PriceTxt.FocusedState.Parent = this.PriceTxt;
             this.PriceTxt.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.PriceTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.PriceTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.PriceTxt.HoverState.Parent = this.PriceTxt;
             this.PriceTxt.Location = new System.Drawing.Point(215, 431);
             this.PriceTxt.Margin = new System.Windows.Forms.Padding(5);
@@ -457,6 +464,7 @@ namespace CarRen
             // 
             // RegNoTxt
             // 
+            this.RegNoTxt.Animated = true;
             this.RegNoTxt.AutoRoundedCorners = true;
             this.RegNoTxt.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.RegNoTxt.BorderRadius = 23;
@@ -468,10 +476,10 @@ namespace CarRen
             this.RegNoTxt.DisabledState.Parent = this.RegNoTxt;
             this.RegNoTxt.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.RegNoTxt.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.RegNoTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.RegNoTxt.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.RegNoTxt.FocusedState.Parent = this.RegNoTxt;
             this.RegNoTxt.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.RegNoTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.RegNoTxt.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.RegNoTxt.HoverState.Parent = this.RegNoTxt;
             this.RegNoTxt.Location = new System.Drawing.Point(215, 228);
             this.RegNoTxt.Margin = new System.Windows.Forms.Padding(5);
@@ -529,7 +537,7 @@ namespace CarRen
             "YES",
             "NO"});
             this.AvailableCb.ItemsAppearance.Parent = this.AvailableCb;
-            this.AvailableCb.Location = new System.Drawing.Point(215, 500);
+            this.AvailableCb.Location = new System.Drawing.Point(216, 500);
             this.AvailableCb.Margin = new System.Windows.Forms.Padding(4);
             this.AvailableCb.Name = "AvailableCb";
             this.AvailableCb.ShadowDecoration.Parent = this.AvailableCb;
@@ -538,6 +546,7 @@ namespace CarRen
             // 
             // guna2Button5
             // 
+            this.guna2Button5.Animated = true;
             this.guna2Button5.AutoRoundedCorners = true;
             this.guna2Button5.BorderRadius = 16;
             this.guna2Button5.CheckedState.Parent = this.guna2Button5;
@@ -562,6 +571,7 @@ namespace CarRen
             // 
             // guna2Button6
             // 
+            this.guna2Button6.Animated = true;
             this.guna2Button6.AutoRoundedCorners = true;
             this.guna2Button6.BorderColor = System.Drawing.Color.SlateGray;
             this.guna2Button6.BorderRadius = 16;
@@ -615,6 +625,7 @@ namespace CarRen
             // 
             // guna2Button7
             // 
+            this.guna2Button7.Animated = true;
             this.guna2Button7.AutoRoundedCorners = true;
             this.guna2Button7.BorderRadius = 17;
             this.guna2Button7.CheckedState.Parent = this.guna2Button7;

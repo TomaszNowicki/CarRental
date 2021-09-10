@@ -104,5 +104,12 @@ namespace CarRen
             dboard.Show();
 
         }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Show();
+        }
     }
 }

@@ -105,6 +105,7 @@ namespace CarRen
             // 
             // UserPass
             // 
+            this.UserPass.Animated = true;
             this.UserPass.AutoRoundedCorners = true;
             this.UserPass.BackColor = System.Drawing.Color.LightGray;
             this.UserPass.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -131,6 +132,7 @@ namespace CarRen
             // 
             // UserId
             // 
+            this.UserId.Animated = true;
             this.UserId.AutoRoundedCorners = true;
             this.UserId.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.UserId.BorderRadius = 18;
@@ -170,6 +172,7 @@ namespace CarRen
             // 
             // UserName
             // 
+            this.UserName.Animated = true;
             this.UserName.AutoRoundedCorners = true;
             this.UserName.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.UserName.BorderRadius = 18;
@@ -206,6 +209,7 @@ namespace CarRen
             // 
             // guna2Button1
             // 
+            this.guna2Button1.Animated = true;
             this.guna2Button1.AutoRoundedCorners = true;
             this.guna2Button1.BorderRadius = 19;
             this.guna2Button1.CheckedState.Parent = this.guna2Button1;
@@ -225,6 +229,7 @@ namespace CarRen
             // 
             // guna2Button2
             // 
+            this.guna2Button2.Animated = true;
             this.guna2Button2.AutoRoundedCorners = true;
             this.guna2Button2.BorderRadius = 19;
             this.guna2Button2.CheckedState.Parent = this.guna2Button2;
@@ -244,6 +249,7 @@ namespace CarRen
             // 
             // guna2Button3
             // 
+            this.guna2Button3.Animated = true;
             this.guna2Button3.AutoRoundedCorners = true;
             this.guna2Button3.BorderRadius = 19;
             this.guna2Button3.CheckedState.Parent = this.guna2Button3;
@@ -263,6 +269,7 @@ namespace CarRen
             // 
             // guna2Button4
             // 
+            this.guna2Button4.Animated = true;
             this.guna2Button4.AutoRoundedCorners = true;
             this.guna2Button4.BorderRadius = 13;
             this.guna2Button4.CheckedState.Parent = this.guna2Button4;
@@ -350,6 +357,7 @@ namespace CarRen
             // 
             // guna2Button5
             // 
+            this.guna2Button5.Animated = true;
             this.guna2Button5.AutoRoundedCorners = true;
             this.guna2Button5.BorderRadius = 13;
             this.guna2Button5.CheckedState.Parent = this.guna2Button5;
@@ -369,6 +377,7 @@ namespace CarRen
             // 
             // guna2Button6
             // 
+            this.guna2Button6.Animated = true;
             this.guna2Button6.AutoRoundedCorners = true;
             this.guna2Button6.BorderColor = System.Drawing.Color.SlateGray;
             this.guna2Button6.BorderRadius = 13;

@@ -16,7 +16,7 @@ namespace CarRen
         {
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.EnableVisualStyles();
-            Application.Run(new Return());
+            Application.Run(new Spinner());
         }
     }
 }
