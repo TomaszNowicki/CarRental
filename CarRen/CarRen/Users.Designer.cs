@@ -109,7 +109,7 @@ namespace CarRen
             this.UserPass.AutoRoundedCorners = true;
             this.UserPass.BackColor = System.Drawing.Color.LightGray;
             this.UserPass.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.UserPass.BorderRadius = 18;
+            this.UserPass.BorderRadius = 23;
             this.UserPass.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.UserPass.DefaultText = "";
             this.UserPass.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -121,7 +121,7 @@ namespace CarRen
             this.UserPass.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.UserPass.FocusedState.Parent = this.UserPass;
             resources.ApplyResources(this.UserPass, "UserPass");
-            this.UserPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.UserPass.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.UserPass.HoverState.Parent = this.UserPass;
             this.UserPass.Name = "UserPass";
             this.UserPass.PasswordChar = '\0';
@@ -135,7 +135,7 @@ namespace CarRen
             this.UserId.Animated = true;
             this.UserId.AutoRoundedCorners = true;
             this.UserId.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.UserId.BorderRadius = 18;
+            this.UserId.BorderRadius = 23;
             this.UserId.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.UserId.DefaultText = "";
             this.UserId.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -147,7 +147,7 @@ namespace CarRen
             this.UserId.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.UserId.FocusedState.Parent = this.UserId;
             resources.ApplyResources(this.UserId, "UserId");
-            this.UserId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.UserId.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.UserId.HoverState.Parent = this.UserId;
             this.UserId.Name = "UserId";
             this.UserId.PasswordChar = '\0';
@@ -175,7 +175,7 @@ namespace CarRen
             this.UserName.Animated = true;
             this.UserName.AutoRoundedCorners = true;
             this.UserName.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.UserName.BorderRadius = 18;
+            this.UserName.BorderRadius = 23;
             this.UserName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.UserName.DefaultText = "";
             this.UserName.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -187,7 +187,7 @@ namespace CarRen
             this.UserName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.UserName.FocusedState.Parent = this.UserName;
             resources.ApplyResources(this.UserName, "UserName");
-            this.UserName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.UserName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.UserName.HoverState.Parent = this.UserName;
             this.UserName.Name = "UserName";
             this.UserName.PasswordChar = '\0';
@@ -211,7 +211,7 @@ namespace CarRen
             // 
             this.guna2Button1.Animated = true;
             this.guna2Button1.AutoRoundedCorners = true;
-            this.guna2Button1.BorderRadius = 19;
+            this.guna2Button1.BorderRadius = 24;
             this.guna2Button1.CheckedState.Parent = this.guna2Button1;
             this.guna2Button1.CustomImages.Parent = this.guna2Button1;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -231,7 +231,7 @@ namespace CarRen
             // 
             this.guna2Button2.Animated = true;
             this.guna2Button2.AutoRoundedCorners = true;
-            this.guna2Button2.BorderRadius = 19;
+            this.guna2Button2.BorderRadius = 24;
             this.guna2Button2.CheckedState.Parent = this.guna2Button2;
             this.guna2Button2.CustomImages.Parent = this.guna2Button2;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -251,7 +251,7 @@ namespace CarRen
             // 
             this.guna2Button3.Animated = true;
             this.guna2Button3.AutoRoundedCorners = true;
-            this.guna2Button3.BorderRadius = 19;
+            this.guna2Button3.BorderRadius = 24;
             this.guna2Button3.CheckedState.Parent = this.guna2Button3;
             this.guna2Button3.CustomImages.Parent = this.guna2Button3;
             this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -271,7 +271,7 @@ namespace CarRen
             // 
             this.guna2Button4.Animated = true;
             this.guna2Button4.AutoRoundedCorners = true;
-            this.guna2Button4.BorderRadius = 13;
+            this.guna2Button4.BorderRadius = 16;
             this.guna2Button4.CheckedState.Parent = this.guna2Button4;
             this.guna2Button4.CustomImages.Parent = this.guna2Button4;
             this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -359,7 +359,7 @@ namespace CarRen
             // 
             this.guna2Button5.Animated = true;
             this.guna2Button5.AutoRoundedCorners = true;
-            this.guna2Button5.BorderRadius = 13;
+            this.guna2Button5.BorderRadius = 16;
             this.guna2Button5.CheckedState.Parent = this.guna2Button5;
             this.guna2Button5.CustomImages.Parent = this.guna2Button5;
             this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -380,7 +380,7 @@ namespace CarRen
             this.guna2Button6.Animated = true;
             this.guna2Button6.AutoRoundedCorners = true;
             this.guna2Button6.BorderColor = System.Drawing.Color.SlateGray;
-            this.guna2Button6.BorderRadius = 13;
+            this.guna2Button6.BorderRadius = 16;
             this.guna2Button6.BorderThickness = 2;
             this.guna2Button6.CheckedState.Parent = this.guna2Button6;
             this.guna2Button6.CustomImages.Parent = this.guna2Button6;
