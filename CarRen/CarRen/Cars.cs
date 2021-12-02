@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 
 namespace CarRen
 {
@@ -194,13 +188,13 @@ namespace CarRen
             {
                 flag = "YES";
             }
-            else 
+            else
             {
                 flag = "NO";
             }
 
             Con.Open();
-            string query = "select * from CarTbl where Available = '"+flag+"'";
+            string query = "select * from CarTbl where Available = '" + flag + "'";
             SqlDataAdapter da = new SqlDataAdapter(query, Con);
             SqlCommandBuilder builder = new SqlCommandBuilder(da);
             var ds = new DataSet();
